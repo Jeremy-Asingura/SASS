@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  background: #0e1538;
+}
+
+a {
+  text-decoration: none;
+  color: #0fff;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  min-height: 20vh;
+  text-transform: uppercase;
+}
+
+h1 {
+  border: 1px solid #f5f5f5;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+h1:hover {
+  background: #fff;
+  -webkit-box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr), 0 0 70px var(--clr);
+          box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr), 0 0 70px var(--clr);
+  color: #0000ff;
+  border: none;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+p {
+  width: 50%;
+  color: #add8e6;
+  font-family: 'Road Rage', cursive;
+  font-size: 50px;
+  cursor: pointer;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+p:hover {
+  text-shadow: 0 0 30px #0234d1, 0 0 60px #0234d1, 0 0 90px #0234d1;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item {
+  padding: 10px;
+}
+
+.btn {
+  display: block;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border: 0;
+  padding: 16px 30px;
+  border-radius: 30px;
+  line-height: 1;
+  color: #00d8d6;
+  font-size: 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.8s linear;
+  transition: all 0.8s linear;
+}
+
+.btn:hover, .btn:focus {
+  background: #00d8d6;
+  -webkit-box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr), 0 0 70px var(--clr);
+          box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr), 0 0 70px var(--clr);
+  color: #fff;
+}
+
+.btn:active {
+  background: #0081d5;
+}
+
+.btn-outline {
+  display: block;
+  outline: none;
+  border: solid 1px #aaa69d;
+  padding: 16px 30px;
+  border-radius: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  background: white;
+  color: #aaa69d;
+  font-size: 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.8s linear;
+  transition: all 0.8s linear;
+}
+
+.btn-outline:hover, .btn-outline:focus {
+  background: var(--clr);
+  border: none;
+  color: #fff;
+  -webkit-box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr), 0 0 70px var(--clr);
+          box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr), 0 0 70px var(--clr);
+}
+
+.btn-outline:active {
+  background: #fff;
+}
+/*# sourceMappingURL=style.css.map */
